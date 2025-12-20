@@ -1,4 +1,6 @@
---Learning SQLite data types: Integer, Real, Text, and Null
+-- Lesson 2: Create table with multiple data types
+-- SQLite data types: Integer, Real, Text, and Null
+
 
 CREATE TABLE friends (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, weight REAL);
 
