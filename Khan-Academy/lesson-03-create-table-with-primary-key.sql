@@ -1,3 +1,7 @@
+/* PRIMARY KEY ensures there is non-NULL value in a row, each existing row will have unique value,
+while AUTOINCREMENT will automatically generate numbers and will not repeat deleted numbers. */
+
+
 CREATE TABLE customers (
     id INTEGER PRIMARY KEY,
     phone TEXT);
