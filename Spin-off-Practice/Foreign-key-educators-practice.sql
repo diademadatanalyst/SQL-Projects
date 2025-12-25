@@ -1,3 +1,5 @@
+-- I learned that I need to put () for the column that I want to connect to a referenced table after typing "FOREIGN KEY", the formula is "FOREIGN KEY (column name) REFERENCES name of table (referenced column)"
+
 CREATE TABLE educators (
   id INTEGER PRIMARY KEY,
   name TEXT);
