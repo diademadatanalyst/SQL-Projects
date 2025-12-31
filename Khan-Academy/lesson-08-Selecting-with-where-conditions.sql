@@ -1,4 +1,6 @@
--- When you issue a SELECT, you often want to filter down the results using WHERE and a condition. You can specify a condition by typing the column name, then a comparison operator, then a number or string. The most common comparison operators are: >, <, >=, <=, =, and !=.
+/* When you issue a SELECT, you often want to filter down the results using WHERE and a condition. You can specify a condition by typing the column name, then a comparison operator, then a number or string. The most common comparison operators are: >, <, >=, <=, =, and !=.
+
+You can filter to see only results where multiple conditions are true by combining them with an AND operator. To see results where any of any number of conditions is true, use the OR operator. The AND operator has precedence over OR, but you can use parentheses to change the order of evaluation. */
 
 CREATE TABLE fruits (
   id INTEGER PRIMARY KEY,
